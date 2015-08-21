@@ -1,0 +1,21 @@
+{
+  "name": "gulpfile-mocha-only-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "test-ci": "export CI=true; ruby _a.rb; gulp test; ruby _z.rb"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2",
+    "gulp-util": "^3.0.6",
+    "mocha": "^2.2.5",
+    "mocha-only-detector": "0.0.2",
+    "run-sequence": "^1.1.2"
+  }
+}
