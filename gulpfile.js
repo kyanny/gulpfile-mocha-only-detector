@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var mocha = require('gulp-mocha');
 var runSequence = require('run-sequence');
 var shell = require('gulp-shell');
 var spawn = require('child_process').spawn;
@@ -38,7 +39,11 @@ gulp.task('test:mocha-only-detector', function(cb) {
 });
 
 gulp.task('test:unit', function() {
-  shell.task(['.node_modules/.bin/mocha test.js']);
+  gulp.src('test.js', {
+    read: false
+  }).pipe(mocha({
+    reporter: 'spec'
+  }))
 });
 
 gulp.task('test', function() {
