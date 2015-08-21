@@ -1,7 +1,7 @@
 Example project of gulp with mocha-only-detector
 ================================================
 
-<img width="1389" alt="2015-08-21 11 56 38" src="https://cloud.githubusercontent.com/assets/10515/9411317/5578e148-4860-11e5-8206-8bf0581727af.png">
+<img width="1392" alt="2015-08-22 0 34 04" src="https://cloud.githubusercontent.com/assets/10515/9412253/b40803f6-4865-11e5-80dc-33ddb1c95c05.png">
 
 - Detect `.only` usage from mocha test suite
 - If found, fail fast test suite on CI environment
