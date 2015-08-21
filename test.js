@@ -1,6 +1,6 @@
 var assert = require("assert");
 describe('foo', function() {
-  describe('1', function() {
+  it('1', function() {
     assert.equal(1, 1);
   });
   it('2', function() {
