@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
 var runSequence = require('run-sequence');
-var shell = require('gulp-shell');
 var spawn = require('child_process').spawn;
 var gutil = require('gulp-util');
 
